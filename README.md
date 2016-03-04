@@ -2,8 +2,8 @@
 这是一个关于支付宝支付、微信支付的例子，里面高度集成了支付宝支付和微信支付,便于开发者集成。
 #PayDemo集成说明
 将支付过程分为两部分：
-1、订单生成
-2、订单支付
+Tab 1、订单生成
+Tab 2、订单支付
 其中与订单生成相对应的类是OrderCreator.与订单支付相应的是Pay.然后扩展实现了AliPayOrderCreator与AliPayPay(微信亦是同样道理)
 #集成过程(以Alipay为例子）
 1、继承AliPayOrderCreator配置Alipay相应信息
